@@ -1,0 +1,36 @@
+.nav {
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 50px;
+        font-weight: bold;
+    }
+
+    .links {
+        margin-right: 20px;
+
+        li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+
+        .link {
+            color: white;
+            font-size: 17px;
+            transition: all 0.5s;
+
+            &:hover {
+                color: #96cef8;
+            }
+        }
+    }
+}

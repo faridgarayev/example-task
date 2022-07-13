@@ -1,0 +1,17 @@
+.home {
+    color: #444b49;
+
+    .home__desription {
+        font-size: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        box-shadow: 1px 1px rgba(0,0,0,0.2);
+    }
+}

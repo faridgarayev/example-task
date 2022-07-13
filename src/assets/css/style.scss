@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #444b49;
+    margin: 1rem 0;
+}
+
+@import 'header';
+@import 'home';
+@import 'orders';
+@import 'singleOrder';
+@import 'createOrder';

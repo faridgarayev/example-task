@@ -1,0 +1,39 @@
+.orders {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+    
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    }
+
+    .link {
+        font-size: 1rem;
+        color: #3498db;
+        transition: all 0.3s;
+
+        &:hover {
+            color:#1e70a7
+        }
+    }
+
+    .totalAmount {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            color: #444b49;
+        }
+    }
+}
+
+
+
